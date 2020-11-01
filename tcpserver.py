@@ -16,7 +16,7 @@ while True:
 
     print(f"Received connexion from {str(address)}")
 
-    message = "Welcome ! Thank you for connecting to the server.\r\n"
+    message = "Welcome ! Thank you for connecting to the server"
 
     clientsocket.send(message.encode("ascii"))
 
